@@ -342,19 +342,9 @@ apt autoremove -y
 # finishing
 rm -fr /etc/issue.net
 cat> /etc/issue.net << END
-</strong> <p style="text-align:center"><b> <br><font 
-color="#00FFE2"<br>┏━━━━━━━━━━━━━━━┓<br>NETWORK 
-TWEAKER<br>┗━━━━━━━━━━━━━━━┛<br></font><br><font 
-color="#00FF00"></strong> <p style="text-align:center"><b> <br><font 
-color="#00FFE2">क═══════क⊹⊱✫⊰⊹क═══════क</font><br><font 
-color='#FFFF00'><b> ★ [ ༆Hʸᵖᵉʳ᭄W̺͆E̺͆L̺͆C̺͆O̺͆M̺͆E̺͆ T̺͆O̺͆ M̺͆Y̺͆ S̺͆E̺͆R̺͆V̺͆E̺͆R̺͆ V͇̿I͇̿P͇̿ ] ★ 
-</b></font><br><font color="#FFF00">PAID SCRIPT</font><br> <font color="#FF00FF">❖Ƭʜᴇ No DDOS</font><br> 
-<font color="#FF0000">❖Ƭʜᴇ No Torrent</font><br> <font 
-color="#FFB1C2">❖Ƭʜᴇ No Bokep </font><br> <font color="#FFFFFF">❖Ƭʜᴇ No 
-Hacking</font><br> <font color="#00FF00">❖Ƭʜᴇ No Mining</font><br> <font 
-color="#00FF00">▄︻デN̷E̷T̷W̷O̷R̷K̷ ̷T̷W̷E̷A̷K̷E̷R̷══━一 </font><br> <font 
-color="#00FFE2">क═══════क⊹⊱✫⊰⊹क═══════क</font><br></font><br><font 
-color="FFFF00">@networktweakerop</font><br>
+<h1 style="color: “red” ; font-size: 48px; text-align: center">Welcome to Aman's Private Server ☠︎</h1>
+<p style="font-size: 16px; text-align: center;">ig <a
+        href="https://www.instagram.com/amann.bin/">@amann.bin</a></p>
 END
 cd
 chown -R www-data:www-data /home/vps/public_html
