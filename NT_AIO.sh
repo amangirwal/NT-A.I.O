@@ -64,15 +64,7 @@ mkdir /etc/funny/cache/vmess-ws-orbit
 mkdir /etc/funny/cache/vmess-ws-orbit1
 mkdir /etc/funny/cache/socks5
 clear
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          Input Domain              	$NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-read -p "Input Your SubDomain : " domain
-echo "$domain" > /root/scdomain
-echo "$domain" > /etc/xray/scdomain
-echo "$domain" > /etc/xray/domain
-echo "$domain" > /etc/v2ray/domain
-echo "$domain" > /root/domain
+bash <(curl -Ls https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/auto_domain.sh)
 clear
 }
 
@@ -509,6 +501,12 @@ systemctl restart ssh
 systemctl enable badvpn2
 systemctl restart badvpn2
 clear
+wget https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/LOGSCLEAEM1.sh
+chmod +x LOGSCLEAEM1.sh
+bash LOGSCLEAEM1.sh
+bash <(curl -Ls https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/autoclearol.sh)
+bash <(curl -Ls https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/badvpn.sh)
+rm prog.sh
 rm -fr /root/.bash-history
 rm -fr /root/*
 touch /root/.system
